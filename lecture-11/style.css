@@ -1,0 +1,14 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 12px;
+    transition: all 0.3s;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }

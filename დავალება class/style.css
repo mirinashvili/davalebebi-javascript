@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-area {
+    margin: 50px;
+  }
+  .contact-area h1 {
+    color: #fff;
+  }
+  
+  .contact-adder-form {
+    background-color: rgb(6, 45, 50);
+    padding: 20px 30px;
+    border-radius: 20px;
+  }
+  .contact-adder-form .form-group {
+    margin: 5px 0;
+  }
+  .contact-adder-form .form-group button {
+    margin-top: 20px;
+  }
+  .contact-adder-form label {
+    color: #fff;
+  }
+  
+  .contact-cards {
+    display: flex;
+  }
+  .contact-cards .card {
+    width: 18rem;
+  }
+  .contact-cards .card img {
+    max-height: 280px;
+    object-fit: cover;
+  }
+
+  p {
+    color: red;
+    
+  }

@@ -1,0 +1,117 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(93, 92, 92);
+}
+
+.main {
+    margin: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.SearchText {
+    width: 440px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgb(203, 223, 24);
+    color: rgb(4, 12, 229);
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    
+}
+
+.addText {
+    height: 35px;
+    width: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    color: blue;
+    background-color: rgb(203, 223, 24);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.addText:hover {
+    opacity: 0.7;
+}
+
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35.5%;
+    margin-top: 30px;
+    background-color: rgb(203, 223, 24);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.writeText {
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(4, 12, 229);
+    font-size: 20px;
+    padding-left: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.writeText.active {
+    text-decoration: line-through;
+    color: aliceblue;
+}
+
+
+.edit {
+    height: 30px;
+    width: 55px;
+    font-size: 16px;
+    color: blue;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    transition: 0.1s;
+}
+
+.edit.active {
+    color: red;
+}
+
+
+.delete {
+    height: 30px;
+    width: 65px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(200, 43, 214);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.delete:hover {
+
+    color: rgb(247, 16, 193);
+
+}
